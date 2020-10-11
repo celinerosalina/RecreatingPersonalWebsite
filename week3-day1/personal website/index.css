@@ -1,0 +1,76 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header h1 {
+  text-align: center;
+}
+#profile {
+  text-align: center;
+  background-color: lightgray;
+  padding: 50px 10px 20px 30px;
+  margin: 51px;
+}
+#profile img {
+  height: 300px;
+  border-radius: 50%;
+}
+#content {
+  text-align: center;
+  width: 55%;
+  margin: 0 auto;
+}
+#hr {
+  margin: 65px;
+}
+.card img {
+  width: 174.06px;
+  height: 120.03px;
+  justify-content: space-between;
+}
+#programming img {
+  text-align: center;
+  width: 174.06px;
+  height: 120.03px;
+}
+#skills {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.card {
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card div {
+  padding: 20px;
+  margin: auto;
+}
+
+/* Optional */
+.card-body h3 {
+  margin-top: auto;
+}
+
+.column {
+  text-align: center;
+  margin: auto;
+  float: left;
+  width: 90%;
+  padding: 20px;
+  line-height: 1.5;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  justify-content: space-between;
+  margin: auto;
+}
